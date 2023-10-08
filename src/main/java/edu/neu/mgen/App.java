@@ -64,17 +64,17 @@ public class App
             }
             case '&':
             {
-                System.out.println("Integer Division: " + b + " && "+ a + " = "+ (b&&a));
+                System.out.println("Logical AND: " + b + " && "+ a + " = "+ (b&&a));
                 break;
             }
             case '|':
             {
-                System.out.println("Integer Division: " + b + " || "+ a + " = "+ (b||a));
+                System.out.println("Logical OR: " + b + " || "+ a + " = "+ (b||a));
                 break;
             }
              case '!':
             {
-                System.out.println("Integer Division: " + b + " != "+ a + " = "+ (b!=a));
+                System.out.println("Logical NOT: " + b + " != "+ a + " = "+ (b!=a));
                 break;
             }
             case 'L':
